@@ -1,0 +1,68 @@
+body {
+    font-family: Arial;
+    color: #333;
+    font-size: 0.95em;
+}
+
+.myprofil-head {
+    color: #191919;
+    font-weight: normal;
+    font-weight: 400;
+    margin: 0;
+    text-align: left;    
+    font-size: 1.8em;
+}
+
+.demo-table {
+    background: #ffffff;
+    border-spacing: initial;
+    margin: 15px;
+    word-break: break-word;
+    table-layout: auto;
+    line-height: 1.8em;
+    border-radius: 4px;
+	color: #000000;
+    padding: 20px 40px;
+    width: 600px;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+
+.content {
+    background: #ffffff;
+    border-spacing: initial;
+    margin: 15px;
+    word-break: break-word;
+    table-layout: auto;
+    line-height: 1.8em;
+    border-radius: 4px;
+	color: #000000;
+    padding: 20px 40px;
+    width: 1000px;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+
+.scroll {
+	background: #ffffff;
+    border-spacing: initial;
+    margin: 0px;
+    word-break: break-word;
+    table-layout: auto;
+    line-height: 1.8em;
+    border-radius: 4px;
+	color: #000000;
+    padding: 10px 10px;
+    width: 1320px;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+
+table, th, td {
+	border: 0px solid black;
+}
+
+th, td {
+	padding: 5px;
+	text-align: left;
+}
