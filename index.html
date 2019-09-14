@@ -13,92 +13,81 @@
 		<div class="myprofil-head">
 			<table>
 				<tr>
-					<th><h1> Name </h1></th>
-					<td><h1> : </h1></td>
-					<td><h1> OKI KUS MAHESA </h1></td>
+					<th><h2> Name </h2></th>
+					<td><h2> : </h2></td>
+					<td><h3> OKI KUS MAHESA </h3></td>
 				</tr>
 				<tr>
-					<th><h1> Nim </h1></th>
-					<td><h1> : </h1></td>
-					<td><h1> L200170064 </h1></td>
+					<th><h2> Nim </h2></th>
+					<td><h2> : </h2></td>
+					<td><h3> L200170064 </h3></td>
 				</tr>
 				<tr>
-					<th><h1> Class </h1></th>
-					<td><h1> : </h1></td>
-					<td><h1> A </h1></td>
+					<th><h2> Class </h2></th>
+					<td><h2> : </h2></td>
+					<td><h3> A </h3></td>
 				</tr>
 				<tr>
-					<th><h1> Matkul </h1></th>
-					<td><h1> : </h1></td>
-					<td><h1> Database Management System </h1></td>
+					<th><h2> Matkul </h2></th>
+					<td><h2> : </h2></td>
+					<td><h3> Database Management System </h3></td>
 				</tr>
 			</table>
 		</div>
 		
+		<div id="nav">
+			<div class="navbar">
+			  <a href="#home">Home</a>
+			  <a href="#news">Blog</a>
+			  <a href="#tugas">Tugas</a>
+			</div>
+		</div>
+		
 		<div class="scroll">
-			<marquee style="font-family:Book Antiqua; color: #FFFFFF" bgcolor="#008080" scrollamount="10"><h2> W e l c o m e &nbsp T o &nbsp M y &nbsp P a g e </h2></marquee>
+			<marquee class="inded" scrollamount="10"> W e l c o m e &nbsp T o &nbsp M y &nbsp P a g e </marquee>
 		</div>
 		
 		<div class="content">
 			<div class="label-ts">
-				<p><h1> TUGAS 1</h1></p>
+				<p><h2> INTRODUCTION </h2></p>
 			</div>
 			<br>
 			<br>
-			<p><h3># Ok guys silahkan simak tiga (3) Perintah pada Mysql.<h3><p>
 			<br>
-			<h3 style="text-align: left;">
-			1.&nbsp; DDL <i>(Data Definition Language)</i></h3>
-			DDL merupakan perintah SQL yang berhubungan dengan pendefinisian suatu struktur database yang digunakan untuk membuat, mengubah dan menghapus struktur dan definisi metadata dari objek-objek database. <br>
-			<br>
-			Beberapa perintah dasar yang termasuk DDL ini antara lain :<i>&nbsp;</i><br>
-			<br>
-			a. CREATE<br>
-			Perintah ini digunakan untuk membuat, termasuk diantaranya membuat database baru, tabel baru, view&nbsp;&nbsp; baru, dan kolom.<br>
-			<br>
-			b. ALTER<br>
-			Perintah ini digunakan untuk mengubah struktur tabel yang telah dibuat. Pekerjaannya mencakup mengganti nama tabel, menambah kolom, mengubah kolom, menghapus kolom, maupun memberikan atribut pada kolom.<br>
-			<br>
-			c. RENAME<br>
-			Perintah yang digunakan untuk merubah nama Objek<br>
-			<br>
-			d. DROP<br>
-			Perintah ini digunakan untuk menghapus database dan tabel.<br>
+			<p><h4>Sistem Manajemen Basis Data</h4> atau yang lebih dikenal dengan DBMS (<i>Database Management System</i>) adalah sebuah teknologi sistem informasi untuk penyimpanan dan pengambilan data pengguna dengan efisienl dengan tindakan pengamanan yang tepat
+				Database adalah kumpulan data dan data terkait yang merupakan koleksi fakta, bisa berupa tulisan atau gambar yang bisa diolah untuk menghasilkan informasi.
+				Sebagian besar data mewakili fakta yang dapat direkam. Alat bantu data dalam menghasilkan informasi, yang didasarkan pada fakta. Misalnya, jika kita memiliki data tentang nilai &nbsp;yang diperoleh oleh semua siswa di kelas, kita dapat menyimpulkan tentang siapa murid yang mendapatkan 10 nilai tertinggi untuk menyimpulkan ranking siswa dikelas
+			</p>
 			<br>
 			<br>
-			<h3>
-			2.&nbsp; DML <i>(Data Manipulation Language)</i></h3>
-			DML merupakan perintah SQL yang digunakan untuk proses pengolahan isi data di dalam table seperti memasukkan, merubah dan menghapus isi data - dan tidak terkait dengan perubahan struktur dan definisi tipe data dari objek database.<br>
+			<h4>
+				# Karakteristik Sistem Manajemen Basis Data / DBMS
+			</h4>
 			<br>
-			Perintah SQL yang termasuk dalam DML antara lain :<br>
+				Secara umum, data diorganisasikan dalam format file. Sistem manajemen basis data adalah sebuah konsep baru, dan semua penelitian dilakukan untuk mengatasi kekurangan dalam pengelolaan data secara traditional (data yang ditulis melalui kertas). Data modern memiliki karakteristik sebagai berikut:
+			<ul>
+				<li><b>Tabel yang saling berhubungan</b> - Sistem Manajemen Basis Data memungkinkan entitas dan relasi antar mereka membentuk tabel. Seorang pengguna sistem tersebut bisa memahami arsitektur database hanya dengan melihat nama tabel.</li>
+				<li><b>Isolasi Data</b> - Sistem basis data sangat berbeda dari datanya. Database adalah entitas yang aktif, sedangkan data dikatakan bersifat pasif, dimana basis data bekerja dan mengatur. DBMS juga menyimpan metadata, yaitu data tentang data, untuk memudahkan prosesnya sendiri.</li>
+				<li><b>Berkurangnya Duplikat Data</b> - Sistem basis data mengikuti aturan normalisasi, yang membagi relasi ketika atributnya memiliki nilai redundansi / sama. Normalisasi adalah proses matematis yang kaya dan ilmiah yang mengurangi duplikat data.</li>
+				<li><b>Konsistensi</b> - Konsistensi adalah keadaan dimana setiap relasi dalam database tetap konsisten. Ada metode dan teknik yang ada, yang dapat mendeteksi usaha untuk meninggalkan database dalam keadaan tidak konsisten. Sistem basis data dapat memberikan konsistensi yang lebih besar dibandingkan dengan bentuk penyimpanan data sebelumnya yang menyimpan aplikasi seperti sistem pemrosesan file.</li>
+				<li><b>Bahasa'Query'</b> - Sistem basis data dilengkapi dengan bahasa query, yang membuatnya lebih efisien untuk mengambil dan memanipulasi data. Seorang pengguna dapat menerapkan sebanyak dan sebagai pilihan penyaringan yang berbeda seperti yang diperlukan untuk mengambil satu set data. Secara tradisional tidak mungkin sistem file-processing seperti ini digunakan.</li>
+				<li><b>ACID Properties</b> - DBMS mengikuti konsep Atomicity, Consistency, Isolation, and Durability (biasanya disingkat sebagai ACID). Konsep ini diterapkan pada transaksi, yang memanipulasi data dalam database. Properti ACID membantu database tetap sehat di lingkungan multi-transaksional dan jika terjadi kegagalan</li>
+				<li><b>Multiuser dan Concurrent Access</b> - Sistem basis data mendukung &nbsp;multi-user dan memungkinkan mereka mengakses dan memanipulasi data secara paralel. Meskipun ada batasan pada transaksi saat pengguna mencoba menangani item data yang sama.</li>
+				<li><b>Multiple views</b> − Sistem basis data menawarkan beberapa tampilan untuk pengguna yang berbeda. Seorang pengguna yang berada di departemen Penjualan akan memiliki pandangan yang berbeda tentang database daripada orang yang bekerja di departemen Produksi. Fitur ini memungkinkan pengguna untuk memiliki tampilan konsentrat database sesuai dengan kebutuhan mereka.</li>
+				<li><b>Keamanan </b>- Sistem basis data menawarkan berbagai tingkat fitur keamanan, yang memungkinkan beberapa pengguna memiliki tampilan berbeda dengan fitur yang berbeda. Misalnya, pengguna di departemen Penjualan tidak dapat melihat data milik departemen Pembelian. Selain itu, juga dapat dikelola berapa banyak data departemen Penjualan yang harus ditampilkan kepada pengguna. Karena DBMS tidak disimpan di disk sebagai sistem file tradisional, sangat sulit bagi penjahat untuk memecahkan kode</li>
+			</ul>
 			<br>
-			a. UPDATE<br>
-			Perintah ini digunakan untuk memperbaharui data lama menjadi data terkini. Jika anda memiliki data yang salah atau kurang Up To Date dengan kondisi sekarang, maka dapat diubah isi datanya dengan menggunakan perintah UPDATE.<br>
+			<h4>
+				# User Sistem Manajemen Basis Data
+			</h4>
 			<br>
-			b. INSERT<br>
-			perintah ini digunakan untuk menyisipkan atau memasukkan data baru ke dalam tabel. Penggunaannya setelah database dan tabel selesai dibuat.<br>
-			<br>
-			c. SELECT<br>
-			Perintah ini digunakan untuk mengambil data atau menampilkan data dari satu tabel atau beberapa tabel dalam relasi. Data yang diambil dapat kita tampilkan dalam layar prompt MySQL secara langsung maupun ditampilkan pada tampilan aplikasi.<br>
-			<br>
-			d. DELETE<br>
-			Perintah ini digunakan untuk menghapus data dari tabel. Biasanya data yang dihapus adalah data yang tidak diperlukan lagi. Pada saat menghapus data, perintah yang telah dijalankan tidak dapat digagalkan, sehingga data yang telah hilang tidak dapat dikembalikan lagi.<br>
-			<br>
-			<br>
-			<h3>
-			3.&nbsp; DCL <i>(Data Control Language)</i></h3>
-			DCL merupakan perintah SQL yang berhubungan dengan manipulasi user dan hak akses (priviledges).<br>
-			<br>
-			Perintah SQL yang termasuk dalam DCL antara lain :<br>
-			<br>
-			a. GRANT<br>
-			Perintah ini digunakan untuk memberikan hak / izin akses oleh administrator (pemilik utama) server kepada user (pengguna biasa). Hak akses tersebut berupa hak membuat (CREATE), mengambil (SELECT), menghapsu (DELETE), mengubah (UPDATE) dan hak khusus berkenaan dengan sistem databasenya.<br>
-			<br>
-			b. REVOKE<br>
-			perintah ini memiliki kegunaan terbalik dengan GRAND, yaitu untuk menghilangkan atau mencabut hak aksesyang telah diberikan kepada user oleh administrator.<br>
-			<i></i><br>
-			Semogah artikel tentang <a href="https://pakarinformatika28.blogspot.com"><u><b>Perintah DDL, DML, dan DCL pada Mysql</b></u></a> dapat membantu teman-teman dalam pembuata database di Mysql.<br>
-			Salam Sukses..
+				Sistem Manajemen Basis Data &nbsp;memiliki pengguna dengan hak akses dan izin berbeda yang menggunakannya untuk tujuan yang berbeda. Beberapa pengguna bisa edit, delete, menambahkan, mengubah data dan beberapa pengguna hanya bisa melihat data dan tidak bisa, edit, delete, create dan update data. Pengguna Sistem basis data dapat dikategorikan secara luas sebagai berikut:
+				<br>
+			<ul style="text-align: left;">
+				<li><b>Administrator</b> - Administrator menjaga sistem basis data dan bertanggung jawab untuk mengadministrasikan database. Mereka bertanggung jawab untuk menjaga penggunaannya dan mengatur user siapa aja yang bisa mengakses database. Administrator juga menjaga sumber daya DBMS seperti lisensi sistem, alat yang dibutuhkan, dan maintenance software dan hardware database.</li>
+				<li><b>Desainer</b> - Desainer adalah kelompok orang yang benar-benar bekerja pada bagian perancangan database. Mereka terus mencermati data apa yang harus disimpan dan dalam format apa. Mereka mengidentifikasi dan merancang keseluruhan entitas, relasi, batasan, dan pandangan.</li>
+				<li><b>End Users</b> - End Users adalah mereka yang benar-benar menggunakan database dari sistem basis data itu sendiri .</li>
+			</ul>
 		</div>
 	
 	</body>
