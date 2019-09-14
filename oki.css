@@ -5,19 +5,50 @@ body {
 }
 
 .myprofil-head {
-    background: #F5F5F5;
+    background: #ffffff;
     border-spacing: initial;
     margin: 15px;
     word-break: break-word;
     table-layout: auto;
     line-height: 1.8em;
-    border-radius: 4px;
-    color: #000000;
+    border-radius: 20px;
+	color: #000000;
     padding: 20px 40px;
-    width: 955px;
+    width: 900px;
     border: 5px solid;
-    border-color: #00CED1;
+	border-color: #00CED1;
 }
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  width: 400px;
+  text-align: center;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  background-color: #FFD700;
+  border-radius: 4px;
+  width: 100px;
+  color: #000000;
+  text-align: center;
+  border: 1px solid;
+  border-color: #ffffff;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+	background-color: #FF1493;
+	border: 1px solid;
+	border-color: #ffffff;
+	color: white;
+}
+
 
 .demo-table {
     background: #ffffff;
@@ -27,27 +58,42 @@ body {
     table-layout: auto;
     line-height: 1.8em;
     border-radius: 4px;
-    color: #000000;
+	color: #000000;
     padding: 20px 40px;
     width: 600px;
+    border: 1px soft;
+    border-color: #000000;
+}
+
+#nav {
+	background: #ffffff;
+    border-spacing: initial;
+    margin: 15px;
+    word-break: break-word;
+    table-layout: auto;
+    line-height: 1.5em;
+    border-radius: 10px;
+	color: #000000;
+    padding: 5px 10px;
+    width: 500px;
     border: 1px solid;
-    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-color: #FFD700;
 }
 
 .label-ts {
     background: #ffffff;
     border-spacing: initial;
-    margin: 5px;
+    margin: 1px;
     word-break: break-word;
     table-layout: auto;
-    line-height: 1.8em;
-    border-radius: 4px;
-    color: #000000;
-    padding: 20px 40px;
-    text-align:center;
-    width: 900px ;
+    line-height: 1em;
+    border-radius: 10px;
+	color: #000000;
+    padding: 20px 20px;
+	text-align: center;
+    width: 800px ;
     border: 1px solid;
-    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-color: #0000000;
 }
 
 .content {
@@ -56,13 +102,26 @@ body {
     margin: 15px;
     word-break: break-word;
     table-layout: auto;
-    line-height: 1.8em;
+    line-height: 1em;
     border-radius: 4px;
-    color: #000000;
+	color: #000000;
     padding: 20px 40px;
-    width: 1000px;
-    border: 1px solid;
-    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    width: 890px;
+    border: 1px soft;
+    border-color: #000000;
+	font-family: Arial;
+	font-size: 15px;	
+}
+
+ul {
+	display: block;
+	list-style-type: disc;
+	color: #000000;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 40px;
 }
 
 * {
@@ -93,19 +152,25 @@ body {
 }
 
 .scroll {
-    background: #ffffff;
+	background: #ffffff;
     border-spacing: initial;
     margin: 0px;
     word-break: break-word;
     table-layout: auto;
     line-height: 1.8em;
-    border-radius: 4px;
-    color: #000000;
+    border-radius: 5px;
+	color: #000000;
     padding: 10px 10px;
     width: 100%;
-    font-weight:bold;
+	font-weight:bold;
     border: 1px solid;
     border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+
+.scroll .inded {
+	font-family: Georgia;
+	color: #ffffff;
+	background-color: #008080;
 }
 
 table, th, td {
